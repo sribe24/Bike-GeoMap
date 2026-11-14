@@ -24,3 +24,27 @@ body {
     height: 100%;
     pointer-events: none;
 }
+
+#map circle  {
+    pointer-events: auto;
+}
+
+header {
+    display: flex;
+    gap:1em;
+    align-items: baseline;
+}
+
+header label {
+    margin-left: auto;
+}
+
+header time {
+    display: block;
+}
+
+header em {
+    display: block;
+    color: gray;
+    font-style: italic;
+}
